@@ -1,0 +1,28 @@
+body{
+    color: white;
+}
+
+div {
+    background-color: blueviolet;
+}
+
+.buten1 {
+    background-color: aqua;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.pic1{
+    width: 400px;
+}
+.buten2{
+    background-color: aqua;
+    display: flex;
+    
+}
