@@ -1,28 +1,88 @@
-body{
-    color: white;
-}
-
-div {
-    background-color: blueviolet;
-}
-
-.buten1 {
-    background-color: aqua;
-}
-
-div {
+body {
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
 }
 
-.pic1{
-    width: 400px;
-}
-.buten2{
-    background-color: aqua;
+#box {
+    background: #2928288d;
+    width: 200px;
+    height: 300px;
     display: flex;
-    
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    overflow-x: hidden;
 }
+
+.btns button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background: lightgray;
+    min-width: 80%;
+}
+
+#plus {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-end;
+    width: fit-content;
+    z-index: 1;
+    background: lightgrayn !important;
+}
+
+#plus button {
+    min-width: 40px;
+}
+
+#box input {
+    background: blue;
+    border: none;
+    min-height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+
+}
+
+.c {
+    background: red;
+}
+
+.equal {
+    background: green;
+}
+
+#number {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2em;
+    position: relative;
+}
+
+
+
+#screen {
+    width: 100%;
+
+}
+
+
